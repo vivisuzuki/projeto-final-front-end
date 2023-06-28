@@ -1,18 +1,18 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import './App.css';
-import ListCharacters from './pages/ListCharacters';
-import DetailCharacter from './pages/DetailCharacter';
+import CharacterList from './pages/CharacterList';
+import CharacterDetail from './pages/CharacterDetail';
 
 function App() {
 
   const routes = createBrowserRouter([
     {
       path: '/',
-      element: <ListCharacters />
+      element: <CharacterList />
     },
     {
       path: '/details',
-      element: <DetailCharacter />
+      element: <CharacterDetail />
     }
   ])
 
