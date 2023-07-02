@@ -1,0 +1,20 @@
+.containerDetail {
+    background-color: rgba(126, 228, 241, 0.986);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerDetail a {
+    background-color: #F4CCBC;
+    box-shadow: 0 5px 0 darkred;
+    margin: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #BF6050;
+    padding: 1em 1.5em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+}

@@ -1,0 +1,12 @@
+.containerPages a {
+    background-color: #F4CCBC;
+    box-shadow: 0 5px 0 darkred;
+    margin: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #BF6050;
+    padding: 1em 1.5em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+}
